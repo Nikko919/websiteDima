@@ -1,0 +1,26 @@
+@font-face {
+    font-family: Montserrat-Italic;
+    src: url("../font/Montserrat-Italic-VariableFont_wght.woff");
+}
+
+@font-face {
+    font-family: Montserrat-VariableFont;
+    src: url("../font/Montserrat-VariableFont_wght.woff");
+}
+
+:root {
+    --Mont-italic: "Montserrat-Italic";
+    --Mont-Vari: "Montserrat-VariableFont";
+    --color-textB: #4D4D4D;
+    --color-text: #FFF;
+    --Title-color: #481C03;
+
+}
+
+h2 {
+    /* font-family: var(--Mont-italic); */
+    font-family: var(--Mont-Vari);
+    color: rgb(154, 154, 64);
+    font-size: 40px;
+    color: var(--Title-color);
+}
