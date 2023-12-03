@@ -21,14 +21,6 @@ body {
     background-color: #4D4D4D;
 }
 
-h2 {
-    /* font-family: var(--Mont-italic); */
-    font-family: var(--Mont-Vari);
-    color: rgb(154, 154, 64);
-    font-size: 40px;
-    color: var(--color-text);
-}
-
 .container {
     max-width: 1440px;
     margin: 0 auto;
