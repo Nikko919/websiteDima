@@ -27,20 +27,19 @@ body {
     padding: 0 20px;
 }
 
+/* header */
 .header {
-    background-image: url("../img/header-bg.jpg");
-    background-repeat: no-repeat;
-    background-position: center;
-    height: 100vh;
+    left: 0;
+    right: 0;
+    padding-top: 15px;
+    position: absolute;
 }
-
 
 .header__inner {
     min-height: 75px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-top: 15px;
     margin-bottom: 20px;
 }
 
@@ -51,6 +50,8 @@ body {
 }
 
 .menu__link {
+    display: inline-block;
+    margin-left: 40px;
     font-family: var(--Mont-Vari);
     font-weight: 500;
     line-height: normal;
@@ -71,6 +72,7 @@ body {
     font-size: 24px;
     font-family: var(--Mont-Vari);
     color: #FE9E45;
+    margin-left: 81px;
 }
 
 /* код слайдера */
@@ -101,3 +103,23 @@ body {
     height: 2px;
 
 }
+
+/* hero */
+.hero {
+    background-image: url("../img/header-bg.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+}
+
+.hero__inner {
+    min-height: 100vh;
+
+}
+
+.hero__text {}
+
+.hero__card {}
+
+.hero__title {}
