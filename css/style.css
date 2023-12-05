@@ -22,7 +22,50 @@ body {
 }
 
 .container {
-    max-width: 1440px;
+    max-width: 1240px;
     margin: 0 auto;
     padding: 0 20px;
+}
+
+.header {
+    background-image: url("../img/header-bg.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.header__inner {
+    min-height: 75px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 15px;
+}
+
+.meni__list {
+    display: flex;
+    align-items: center;
+    gap: 0 40px;
+}
+
+.menu__link {
+    font-family: var(--Mont-Vari);
+    font-weight: 500;
+    line-height: normal;
+    color: #FFF;
+    font-size: 24px;
+}
+
+.menu__item-border a {
+    max-width: 240px;
+    position: relative;
+    padding: 15px 22px;
+    border: 1px solid #FE9E45;
+}
+
+.menu__link-orange {
+    position: absolute;
+    width: 100%;
+    font-size: 24px;
+    font-family: var(--Mont-Vari);
+    color: #FE9E45;
 }
